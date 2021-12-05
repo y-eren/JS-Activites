@@ -1,0 +1,46 @@
+*{
+    background-color: gray;
+}
+h1 {
+    color : red;
+    text-align : center;
+    font-family :'Times New Roman', Times, serif;
+    font-size: 150px;
+}
+
+.button-container {
+    display: flex;
+    justify-content : space-around;
+    align-items : center;
+   
+}
+.btn {
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: green;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: red;
+}
+.btn:hover {
+    background-color: blue;
+    transition: 1s;
+    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.button:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: transleteY(4px);
+}
+#value {
+    color :blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 150px;
+}
